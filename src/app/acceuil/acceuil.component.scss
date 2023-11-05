@@ -1,0 +1,57 @@
+.container{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+    >.centre{
+        >.food{
+            width: 200px;
+        }
+        width: 300px;
+        height: auto;
+        display: flex;
+        text-align: justify;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        >.logo{
+            font-size: 50px;
+            font-weight: bolder;
+        }
+        >.presentation{
+            margin: 10px;
+        }
+        >.commander{
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            color: black;
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 5px;
+            &:hover{
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+}
+a{
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    >.icon{
+        width: 30px;
+    }
+}
